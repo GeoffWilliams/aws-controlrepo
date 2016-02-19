@@ -3,6 +3,7 @@ class role::puppet::master {
   include r_profile::puppet::r10k
 
   class { "r_profile::puppet::master":
+    hieradir  => "/vagrant/hieradata",
     hierarchy => [ "aws" ],
   }
 }
