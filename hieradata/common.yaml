@@ -2,7 +2,7 @@
 ---
 
 # git directory to checkout the control repository to
-r_profile::puppet::r10k::remote: "https://github.com/GeoffWilliams/r10k-control"
+r_profile::puppet::r10k::remote: "https://github.com/GeoffWilliams/aws-controlrepo"
 
 # proxy server to use for all networking, you may include username/password
 # information in the usual http://user:host@... notation but note that this
